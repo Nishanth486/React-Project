@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 2rem;
+  background: #f0f2f5;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: black;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.button {
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+}

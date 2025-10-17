@@ -1,0 +1,44 @@
+.container {
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  color: black;
+}
+
+.backButton {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+}
+
+.emptyMessage {
+  font-size: 1.2rem;
+}
+
+.feedbackGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.feedbackCard {
+  border: 1px solid #989898;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.feedbackCard h3 {
+  margin-top: 0;
+}

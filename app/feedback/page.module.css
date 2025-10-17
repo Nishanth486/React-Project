@@ -1,0 +1,68 @@
+.container {
+  min-height: 100vh;
+  padding: 2rem;
+  background: #f0f2f5;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  color: black;
+}
+
+.backButton {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+}
+
+.form {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  background: #fff;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.input,
+.textarea {
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 100px;
+  max-height: 200px;
+  grid-column: 1 / -1; /* Span all columns */
+}
+
+.submitButton {
+  padding: 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  grid-column: 1 / -1; /* Span all columns */
+  justify-self: center;
+  width: 20%;
+}
